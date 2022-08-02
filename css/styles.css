@@ -1,0 +1,168 @@
+body
+{
+  font-family: 'Montserrat';
+}
+h1
+{
+  font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight:bolder;
+}
+h2
+{ font-family: "Montserrat-bold";
+  font-size:3rem;
+  line-height: 1.5;
+}
+h3
+{
+  font-weight: bold;
+}
+#title
+{
+  background-color: #ff4c68;
+
+}
+#features
+{
+  padding:7% 10%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+#info
+{
+  width: 75%;
+  padding-left: 25%;
+  color: #8f8f8f;
+}
+
+#navbarSupportedContent
+{
+  margin-left: 500px;
+}
+
+.container-fluid
+{
+  padding: 2% 15% 7%  ;
+}
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-item
+{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+.Download-button
+{
+  margin:4% 2% 2% 0;
+}
+.col-lg-6
+{
+  padding-left: 80px;
+}
+.title-img
+{
+  width:50%;
+  right:15%;
+}
+@media(min-width:900px)
+{ .title-img{
+  position: absolute;
+  transform: rotate(25deg);
+}
+}
+.heading
+{
+  font-family: Montserrat-bold;
+  font-size: 1.5rem;
+}
+.fa-solid
+{
+  color:#ef8172;
+}
+
+.fa-solid:hover
+{
+  color:#ff4c68;
+}
+#testimonials
+{padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color:white;
+}
+.testimonial-image
+{width:10%;
+  height: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align:center;
+}
+#press-img
+{
+  width:15%;
+  margin:20px 20px 50px;
+  padding-bottom: 20px;
+}
+.card-head
+{
+    background-color: #8f8f8f;
+}
+.b:hover{
+background-color: #8f8f8f;
+}
+#pricing{
+  padding:100px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.pricing-column
+{
+  padding: 3% 2%;
+}
+#cta{
+  background-color: #ff4c68;
+  font-family: 'Montserrat-black';
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+.cta-info
+{
+  font-size:3rem;
+  width:75%;
+  padding-left: 250px;
+}
+#footer
+{ margin-top: 25px;
+  text-align: center;
+}
+.fa-brands
+{
+  padding: 5px;
+}
+.fa-envelope
+{
+  padding: 5px;
+  color: black;
+}
